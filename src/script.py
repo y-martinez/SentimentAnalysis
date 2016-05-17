@@ -15,10 +15,6 @@ train_labeled = pd.read_csv(train_file,
                          header=0,
                          delimiter="\t", quoting=3)
 
-train_unlabeled = pd.read_csv(unlabeled_train_file,
-                         header=0,
-                         delimiter="\t", quoting=3)
-
 test_unlabeled = pd.read_csv(test_file, header=0,
                    delimiter="\t",
                    quoting=3 )

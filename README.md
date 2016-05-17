@@ -1,4 +1,4 @@
-# Análisis de Sentimientos en reviews de Rotten Tomatoes
+# Análisis de Sentimientos en reviews de IMDB
 #### Minería de Datos
 
 #### Josseline & Ybrahin

@@ -1,0 +1,33 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+body{
+	background-image: url("/statics/images/purple.jpg");
+}
+
+#loading{
+	transform: scale(2.5, 2.5);
+}
+
+#icon{
+	height: 8%;
+	width: 8%;
+}
+
+#pcontent{
+	background-color: white; 
+	display: none;
+}
+
+.stage{
+	margin: 2.5% 2.5% 2.5% 2.5%;
+}
+
+#run, #train-info, #train-success, #loading{
+	display: none;
+}
