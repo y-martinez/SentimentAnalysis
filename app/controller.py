@@ -18,7 +18,7 @@ def index():
 
 @app.route('/train', methods=['GET'])
 def train():
-	#modelo = SentimentalModel()
+	modelo = SentimentalModel()
 	return Response(status = 202)
 	
 @app.route('/upload',methods=['POST'])
@@ -28,10 +28,10 @@ def upload_data():
 		if file and allowed_file(file.filename):
 			filename = secure_filename(file.filename)
 			file.save(os.path.join(app.config['DATA_FOLDER'], filename))
-			return redirect(url_for('study_case'))
+			return redirect(url_for('study'))
 	
 
-@app.route('/study_case', methods=['GET'])
-def classify():
+@app.route('/study', methods=['GET'])
+def study():
 	return render_template('case.html')
 
