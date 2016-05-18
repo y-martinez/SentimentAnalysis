@@ -14,6 +14,11 @@ body{
 	transform: scale(2.5, 2.5);
 }
 
+.review-img{
+	width: 64px;
+	height: 64px;
+}
+
 #icon{
 	height: 8%;
 	width: 8%;
@@ -28,6 +33,6 @@ body{
 	margin: 2.5% 2.5% 2.5% 2.5%;
 }
 
-#run, #train-info, #train-success, #loading{
+#run, #train-info, #test-info, #test-success, #train-success, #res-success, #loading{
 	display: none;
 }

@@ -22,5 +22,5 @@ def preprocessing(raw_review,lang="english"):
 	stops = set(stopwords.words(lang) + punctuation)
 	words = [word for word in words if not word.lower() in stops]
 
-	return (" ".join( words ))
+	return (" ".join(words))
 
